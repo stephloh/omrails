@@ -17,11 +17,9 @@ group :assets do
 	gem 'uglifier', '>= 1.3.0'
 end
 
+gem 'turbolinks'
+gem 'jbuilder', '~> 1.2'
 
-
-# gem 'turbolinks'
-# gem 'jbuilder', '~> 1.2'
-
-# group :doc do
-#   gem 'sdoc', require: false
-# end
+group :doc do
+	gem 'sdoc', require: false
+end
